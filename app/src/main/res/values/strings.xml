@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">一种星座分析与配对软件V1.0</string>
+    <string name="tag_con">星座</string>
+    <string name="tag_pair">配对</string>
+    <string name="tag_fortune">运势</string>
+    <string name="tag_mine">我的</string>
+    <string name="man">男生 :</string>
+    <string name="woman">女生 :</string>
+    <string name="pair_info">请先选择您的星座和对方的星座，点击配对分析即可</string>
+    <string name="pair_text">开始配对分析</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

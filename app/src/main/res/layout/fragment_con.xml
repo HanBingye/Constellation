@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgYellow"
+    tools:context="com.bing.constellation.confrag.ConFragment">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/vp_con"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <LinearLayout
+        android:id="@+id/ll_con"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_alignBottom="@+id/vp_con"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" />
+
+    <GridView
+        android:id="@+id/gv_con"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/vp_con"
+        android:layout_marginTop="50dp"
+        android:numColumns="3" />
+
+
+</RelativeLayout>

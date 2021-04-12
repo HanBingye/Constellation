@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_fTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/lightYellow"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/pink"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/ll_atCenter"
+      android:layout_below="@+id/tv_fTitle"
+        android:layout_above="@+id/rg_mRg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_mRg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/lightYellow"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <RadioButton
+            android:id="@+id/rb_con"
+            style="@style/rb_tag"
+            android:checked="true"
+            android:drawableTop="@drawable/db_rb_con"
+            android:text="@string/tag_con" />
+
+        <RadioButton
+            android:id="@+id/rb_pair"
+            style="@style/rb_tag"
+
+            android:drawableTop="@drawable/db_rb_pair"
+            android:text="@string/tag_pair"
+
+            />
+
+        <RadioButton
+            android:id="@+id/rb_fortune"
+            style="@style/rb_tag"
+            android:drawableTop="@drawable/db_rb_fortune"
+            android:text="@string/tag_fortune" />
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/rb_tag"
+            android:drawableTop="@drawable/db_rb_mine"
+            android:text="@string/tag_mine" />
+
+
+    </RadioGroup>
+
+
+</RelativeLayout>
