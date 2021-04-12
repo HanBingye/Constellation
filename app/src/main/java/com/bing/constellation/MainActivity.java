@@ -21,7 +21,6 @@ public class MainActivity extends AppCompatActivity implements RadioGroup.OnChec
     private RadioGroup rg_mRg;
     private Fragment conFrag, fortuneFrag, pairFrag,mineFrag;
     private FragmentManager manager;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
