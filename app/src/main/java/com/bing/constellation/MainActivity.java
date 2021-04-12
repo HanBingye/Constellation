@@ -19,7 +19,6 @@ import com.google.gson.Gson;
 public class MainActivity extends AppCompatActivity implements RadioGroup.OnCheckedChangeListener {
 
     private RadioGroup rg_mRg;
-
     private Fragment conFrag, fortuneFrag, pairFrag,mineFrag;
     private FragmentManager manager;
 
